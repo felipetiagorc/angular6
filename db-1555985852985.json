@@ -438,22 +438,6 @@
         }
       ],
       "id": 4
-    },
-    {
-      "name": "asdfasdfsaf",
-      "email": "asdfas@asda.com",
-      "emailConfirmation": "adsas@coaks.com",
-      "address": "afasdffa",
-      "number": "22",
-      "optionalAddress": "",
-      "paymentOption": "MON",
-      "orderItems": [
-        {
-          "quantity": 1,
-          "menuId": "capp"
-        }
-      ],
-      "id": 5
     }
   ]
 }
