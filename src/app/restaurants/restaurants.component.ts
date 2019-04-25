@@ -18,4 +18,4 @@ this.restaurantsServices.restaurants()
    .subscribe(restaurants => this.restaurants = restaurants)
   }
 
-} 
+}
