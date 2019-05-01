@@ -11,6 +11,8 @@ import { NotificationService } from './messages/notification.service';
 import { SnackbarComponent } from './messages/snackbar/snackbar.component';
 import { RadioComponent } from './radio/radio.component';
 import { RatingComponent } from './rating/rating.component';
+import { LeaveOrderGuard } from '../order/leave-order.guard';
+
 
 
 
@@ -29,7 +31,8 @@ export class SharedModule {
                         RestaurantsService, 
                         NotificationService, 
                         LoggedInGuard,                        
-                        LoginService]
+                        LoginService,
+                        LeaveOrderGuard]
         }
     }
 }
